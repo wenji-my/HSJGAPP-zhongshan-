@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_color">#bf360c</color>
+    <color name="drawer_arrow_second_color">#303f9f</color>
+    <color name="ldrawer_color">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="ldrawer_barSize">18dp</dimen>
+    <dimen name="ldrawer_drawableSize">50dp</dimen>
+    <dimen name="ldrawer_gapBetweenBars">3dp</dimen>
+    <dimen name="ldrawer_middleBarArrowSize">16dp</dimen>
+    <dimen name="ldrawer_thickness">2dp</dimen>
+    <dimen name="ldrawer_topBottomBarArrowSize">11dp</dimen>
+    <dimen name="navdrawer_width">260dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">HSJGAPP</string>
+    <string name="appearance_photo">外观照片</string>
+    <string name="basic_information">车辆基本信息</string>
+    <string name="brake_road_test">路试制动</string>
+    <string name="btnBeginDet">检验开始</string>
+    <string name="btnEndDet">检验结束</string>
+    <string name="btnSubmit">提交数据</string>
+    <string name="chassis_inspection">底盘检验</string>
+    <string name="chassis_number">车架号:</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="dynamic_chassis">动态底盘</string>
+    <string name="exitId">退出</string>
+    <string name="function_interface">功能界面</string>
+    <string name="function_license_plate_number">车牌号码:</string>
+    <string name="function_plate_type">号牌种类:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="inspection_test">外检检验拍照</string>
+    <string name="login_exit">退 出</string>
+    <string name="login_jiemiamname">监管软件APP</string>
+    <string name="login_login">登 录</string>
+    <string name="login_name">用 户 名</string>
+    <string name="login_passwork">密 码</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="parameter_settingsId">基本参数设置</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="ramp_test">坡道测试</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="remember_password">记住密码</string>
+    <string name="speed_table">车速表路试</string>
+    <string name="textViewCheck">(全选)</string>
+    <string name="time_error">时间有问题</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="vehicle_information_list">车辆信息列表</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

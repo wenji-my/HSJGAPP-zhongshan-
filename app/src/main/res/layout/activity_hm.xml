@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="检验流水号:" />
+
+        <TextView
+            android:id="@+id/cllsh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="检测流水号" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车牌号码:" />
+
+        <TextView
+            android:id="@+id/cphaoma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车牌号码" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建时间:" />
+
+        <TextView
+            android:id="@+id/cjsj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建时间" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已传照片:" />
+
+        <TextView
+            android:id="@+id/zpzl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="照片种类"
+            android:textColor="#4285F4" />
+    </LinearLayout>
+
+</LinearLayout>

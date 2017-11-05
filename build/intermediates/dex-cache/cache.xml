@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="Y:\Users\Administrator\HSJGAPP1\app\libs\ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="224c93f1824fa17b96db7250c2e5e2703d45e052">
+        <dex dex="Y:\Users\Administrator\HSJGAPP1\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-3.0.0-jar-with-dependencies_62f0194022f6eac4c360068afd357847c76c0d57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Y:\Users\Administrator\HSJGAPP1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a77c0d8a6ef7fed2bf92c79a5c230ec83f2b2895">
+        <dex dex="Y:\Users\Administrator\HSJGAPP1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c0680c4ce1d69836ac296bd86a5fb6072c303a6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Y:\Users\Administrator\Android\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="Y:\Users\Administrator\HSJGAPP1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_92e8b69ac0db7e08501bae547118d81f1671d7d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Y:\Users\Administrator\HSJGAPP1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a93caede4a6ad38f24ce9bf51766a0787e23d80c">
+        <dex dex="Y:\Users\Administrator\HSJGAPP1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_665f2d77edac54d54f0a3e79c4f8cc0df757393b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Y:\Users\Administrator\HSJGAPP1\app\libs\sun.misc.BASE64Decoder.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="acd93e3727886196f9b8434279ff445ba8611186">
+        <dex dex="Y:\Users\Administrator\HSJGAPP1\app\build\intermediates\transforms\dex\debug\folders\1000\2\sun.misc.BASE64Decoder_51bf8b2b19e39a50f226225a9366a022f09db0b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Y:\Users\Administrator\HSJGAPP1\app\libs\commons-net-3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="643cc426b9f75aa111fac0fac0e52ff5d991a337">
+        <dex dex="Y:\Users\Administrator\HSJGAPP1\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-net-3.0.1_044f3905e03adbcf6a6e188e6b5077b8a02d47a8\classes.dex" />
+    </item>
+
+</items>

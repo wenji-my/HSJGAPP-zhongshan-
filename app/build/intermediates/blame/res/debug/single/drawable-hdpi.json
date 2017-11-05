@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcherw.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcherw.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ad_close.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\ad_close.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\takephoto_1_camera.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\takephoto_1_camera.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\takephoto_bar_hor.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\takephoto_bar_hor.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\flash_off.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\flash_off.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\delete.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\delete.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bottom_control_bg.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\bottom_control_bg.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hstb.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\hstb.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\takephoto_2_txt.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\takephoto_2_txt.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_takephoto_cancel.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\icon_takephoto_cancel.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\photo_off.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\photo_off.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_social_right_arrow.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\icon_social_right_arrow.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_drawer.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\increase.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\increase.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcherweb.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcherweb.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\minus.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\minus.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\flash_on.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\flash_on.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_takephoto_save.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\icon_takephoto_save.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\line.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\line.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\takephoto_1_bg_hor.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\takephoto_1_bg_hor.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\kuang.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\kuang.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\takephoto_tab1.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\takephoto_tab1.png"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\photo_ok.png",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\drawable-hdpi\\photo_ok.png"
+    }
+]

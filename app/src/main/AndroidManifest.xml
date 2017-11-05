@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hsjgapp"
+    android:versionCode="7"
+    android:versionName="2.0.6" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcherweb"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hsjgapp.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity  android:name="com.example.hsjgapp.CSSetupActivity"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.VehicleInformationActivity"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.FunctionActivity"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.TabHostOne"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.MaulDetActivitySpinner"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.MaulDetActivityEditText"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.AppearancePhoto"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.TakePhotoActivity"
+                   android:configChanges="orientation|keyboardHidden" 
+                   android:screenOrientation="landscape"/>
+        <activity  android:name="com.example.hsjgapp.ImageShowActivity"
+                   android:screenOrientation="landscape"/>
+        <activity  android:name="com.example.hsjgapp.BrakeRoadTest"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.RoadTestToMove"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.SlopeOfBrake"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.BackOffice"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.SCPhotos"
+                   android:screenOrientation="portrait"/>  
+        <activity  android:name="com.example.hsjgapp.BasicSetup"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.NewPassWordActivity"
+                   android:screenOrientation="portrait"/>
+        <activity  android:name="com.example.hsjgapp.OnLineSchedulingActivity"
+                   android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

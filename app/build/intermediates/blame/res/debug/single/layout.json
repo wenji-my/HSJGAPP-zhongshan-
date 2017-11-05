@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cs_setup.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\cs_setup.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\maul_list_childitem_edittext.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\maul_list_childitem_edittext.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\maul_list_item.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\maul_list_item.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_road_test_to_move.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\activity_road_test_to_move.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hm.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\activity_hm.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\function.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\function.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hm_two.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\activity_hm_two.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_password.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\new_password.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\pull_to_refresh.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_adapter.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\spinner_adapter.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\maul_list_childitem_spinnerr.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\maul_list_childitem_spinnerr.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_informations.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\activity_informations.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\appearance_photo.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\appearance_photo.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\take_photo.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\take_photo.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\basic_setup.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\basic_setup.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_slope_of_brake.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\activity_slope_of_brake.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vehicle_information.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\vehicle_information.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\online_schedul.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\online_schedul.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vehicle_information_item.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\vehicle_information_item.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabhost_one.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\tabhost_one.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\maul_list.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\maul_list.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\back_office.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\back_office.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\brake_road_test.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\brake_road_test.xml"
+    },
+    {
+        "merged": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_imageshow.xml",
+        "source": "Y:\\Users\\Administrator\\HSJGAPP1\\app\\src\\main\\res\\layout\\activity_imageshow.xml"
+    }
+]

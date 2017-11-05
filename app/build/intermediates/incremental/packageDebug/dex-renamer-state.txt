@@ -1,0 +1,7 @@
+#Sat Oct 07 15:11:09 CST 2017
+base.0=Y\:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_665f2d77edac54d54f0a3e79c4f8cc0df757393b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=Y\:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c0680c4ce1d69836ac296bd86a5fb6072c303a6a\\classes.dex
+base.1=Y\:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c0680c4ce1d69836ac296bd86a5fb6072c303a6a
+file.0=Y\:\\Users\\Administrator\\HSJGAPP1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_665f2d77edac54d54f0a3e79c4f8cc0df757393b\\classes.dex

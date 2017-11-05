@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4285F4"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:text="制动路试列表"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEE9E9"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/road_tittleLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/road_btnBeginDet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button3_style"
+                android:onClick="doClick"
+                android:text="@string/btnBeginDet"
+                android:textColor="#4285F4" />
+
+            <Button
+                android:id="@+id/road_btnVedio"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button3_style"
+                android:enabled="false"
+                android:onClick="doClick"
+                android:text="录像拍照"
+                android:textColor="#4285F4" />
+
+            <Button
+                android:id="@+id/road_btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button3_style"
+                android:enabled="false"
+                android:onClick="doClick"
+                android:text="@string/btnSubmit"
+                android:textColor="#4285F4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lxxz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="路试制动" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="驻坡制动" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="车速表制动" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" >
+
+                <Button
+                    android:id="@+id/lslxks"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button3_style"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:onClick="doClick"
+                    android:text="路试录像开始"
+                    android:textColor="#4285F4"
+                    android:textSize="13dp" />
+
+                <Button
+                    android:id="@+id/zplxks"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button3_style"
+                    android:enabled="false"
+                    android:onClick="doClick"
+                    android:text="驻坡录像开始"
+                    android:textColor="#4285F4"
+                    android:textSize="13dp" />
+
+                <Button
+                    android:id="@+id/cslxks"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button3_style"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:onClick="doClick"
+                    android:text="车速录像开始"
+                    android:textColor="#4285F4"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" >
+
+                <Button
+                    android:id="@+id/lslxjs"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button3_style"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:onClick="doClick"
+                    android:text="路试录像结束"
+                    android:textColor="#4285F4"
+                    android:textSize="13dp" />
+
+                <Button
+                    android:id="@+id/zplxjs"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button3_style"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:onClick="doClick"
+                    android:text="驻坡录像结束"
+                    android:textColor="#4285F4"
+                    android:textSize="13dp" />
+
+                <Button
+                    android:id="@+id/cslxjs"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button3_style"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:onClick="doClick"
+                    android:text="车速录像结束"
+                    android:textColor="#4285F4"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/brakelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:id="@+id/R1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="行车制动初速度:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/zdcsd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="行车制动协调时间:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/zdxtsj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="请保留2位小数点"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="行车制动稳定性:"
+                        android:textSize="20dp" />
+
+                    <Spinner
+                        android:id="@+id/zdwdx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="行车空载制动距离:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/xckzzdjl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="行车满载制动距离:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/xcmzzdjl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="行车空载MFDD:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/xckzmfdd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="请保留1位小数点"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="行车满载MFDD:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/xcmzmfdd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="请保留1位小数点"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="行车制动踏板力值:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/xczdczlz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="行车路试制动判定:"
+                        android:textSize="20dp" />
+
+                    <Spinner
+                        android:id="@+id/lszdpd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="应急制动初速度:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/yjzdcsd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="应急空载制动距离:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/yjkzzdjl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="应急空载MFDD:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/yjkzmfdd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="请保留1位小数点"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="应急满载制动距离:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/yjmzzdjl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="应急满载MFDD:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/yjmzmfdd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="请保留1位小数点"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="应急操纵力方式:"
+                        android:textSize="20dp" />
+
+                    <Spinner
+                        android:id="@+id/yjzdczlfs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="应急操纵力值:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/yjzdczlz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="应急路试制动判定:"
+                        android:textSize="20dp" />
+
+                    <Spinner
+                        android:id="@+id/yjzdpd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/R3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="车速表实测值:"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/csdscz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="车速表判定:"
+                        android:textSize="20dp" />
+
+                    <Spinner
+                        android:id="@+id/csbpd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/R2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="驻车坡度:"
+                        android:textSize="20dp" />
+
+                    <Spinner
+                        android:id="@+id/zcpd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="路试驻车制动判定:"
+                        android:textSize="20dp" />
+
+                    <Spinner
+                        android:id="@+id/lszczdpd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="路试结果:"
+                    android:textSize="20dp" />
+
+                <Spinner
+                    android:id="@+id/lsjg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
